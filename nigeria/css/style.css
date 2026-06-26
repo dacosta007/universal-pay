@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(248, 246, 255);
+    padding: 0px;
+    margin: 0px; 
+}  
+
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: white;
+}
+
+.pc-menu {
+    display: flex;
+    align-items: center;
+    column-gap: 13px;
+
+}
+
+.menuf {
+    cursor: pointer;
+}
+
+.menuf:hover {
+    text-decoration: underline;
+}
+
+.bi-list {
+    cursor: pointer;
+    font-size: 30px;
+    display: none;
+}
+
+@media (max-width: 767px) {
+    .bi-list {
+        cursor: pointer;
+        font-size: 30px;
+        display: block;
+    }
+
+    .pc-menu {
+        display: none;
+    }
+}
+
+.select-section {
+    margin: 100px 10px;
+}
+
+.choose {
+    margin: 30px 0px;
+    display: flex;
+    row-gap: 20px;
+    column-gap: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.name {
+    text-align: center;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+/*
+@media (max-width: 767px) {
+    body {
+        display: block;
+    }
+}*/
+
+.mobile-menu {
+    display: none;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: white;
+    z-index: 555;
+}
+
+.bi-x-lg {
+    margin: 10px 10px 30px;
+    font-size: 26px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.menu-lining {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    padding: 20px 10px;
+    border-bottom: 1px solid gray;
+    cursor: pointer;
+}
+
+.menu-lining:hover {
+    color: blue;
+}
+
+.bi-youtube {
+    color: red;
+}

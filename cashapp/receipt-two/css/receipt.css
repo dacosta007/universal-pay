@@ -1,0 +1,83 @@
+body {
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.receipt {
+    width: 80%;
+    margin: 30px auto;
+    display: block;
+    padding: 25px;
+}
+
+.info {
+    display: block;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    z-index: 100;
+}
+
+.info-container {
+    background-color: white;
+    padding: 100px;
+    text-align: center;
+    margin: 20% auto;
+    display: block;
+    font-weight: bold;
+    width: 50%;
+}
+
+@media (max-width: 767px) {
+    .info {
+        display: none;
+    }
+}
+
+@media (max-width: 500px) {
+    .receipt {
+        width: 75%;
+        margin: 30px auto;
+        display: block;
+        padding: 40px;
+    }  
+
+}
+
+.bi-check {
+    font-size: 30px;
+    color: white;
+    background-color: rgb(6, 187, 6);
+    padding: 5px;
+    border-radius: 40px;
+}
+
+.label {
+    margin-top: 20px;
+}
+
+
+.complete-btn {
+    text-align: center;
+    padding: 10px;
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 20px;
+    font-size: 16px;
+    left: 20%;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    background-color: rgb(6, 187, 6);
+}
+
+.bi-check {
+    font-size: 30px;
+}
